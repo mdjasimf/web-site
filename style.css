@@ -8,12 +8,13 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.sob-section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding-left:5%;
+    padding-left:2%;
 
 }
 .half-width img{
@@ -31,4 +32,41 @@ section{
 .top-banner{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-banner{
+    background-image: url(middle-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.jasim{
+    display: flex;
+    background-image: url(jasim.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half{
+    box-shadow: 5px 5px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+h2{
+    font-size: 40px;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, cyan);
+    border-image-slice:1;
+}
+#salam{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#footer{
+    text-align: center;
+    margin-bottom: 20px;
+
 }
